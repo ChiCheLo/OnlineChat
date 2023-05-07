@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>註冊</title>
+  <!-- 引入 Bootstrap 4 樣式表 -->
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <!-- 自定義樣式表 -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding-top: 4rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .btn-primary {
+      background-color: #1E90FF;
+      border-color: #1E90FF;
+    }
+    .btn-primary:hover {
+      background-color: #ADD8E6;
+      border-color: #ADD8E6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            註冊
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="username">帳號</label>
+                <input type="text" class="form-control" id="username">
+              </div>
+              <div class="form-group">
+                <label for="password">密碼</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">確認密碼</label>
+                <input type="password" class="form-control" id="confirm-password">
+              </div>
+              <div class="form-group">
+                <label for="email">電子信箱</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">提交</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入 Bootstrap 4 JavaScript 檔案 -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
